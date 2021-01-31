@@ -9,10 +9,16 @@
 ---
 
 ## Development
+1) `yarn`
+2) `yarn watch`
+3) `yarn start`
 
 ### Build
+1) `yarn build`
+2) `yarn make`
 
 ## Running
+1) Run the executable in the `out` directory after building.
 
 ## License
 
