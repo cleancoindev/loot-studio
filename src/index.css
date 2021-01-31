@@ -3,6 +3,7 @@
 body {
   margin: 0;
   background-color: #e4e7eb;
+  overflow: hidden;
 }
 
 #app {
