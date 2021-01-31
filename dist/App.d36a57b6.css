@@ -1,0 +1,96 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 192px;
+  background-color: #e3f8ff;
+}
+#sidebar #top-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+}
+#sidebar #top-links > div {
+  margin: 12px;
+  margin-left: 24px;
+  font-family: "Lato";
+  font-size: 24px;
+  color: #035388;
+}
+#sidebar #top-links > div:hover {
+  cursor: pointer;
+}
+#sidebar #bottom-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sidebar #bottom-links > div {
+  margin: 36px;
+  font-family: "Lato";
+  font-size: 24px;
+  color: #035388;
+}
+#sidebar #bottom-links > div:hover {
+  cursor: pointer;
+}
+#sidebar .selected {
+  font-weight: 600;
+}
+#create-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+#create-view #create-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #9aa5b1;
+  border-radius: 5px;
+  width: 512px;
+  height: 384px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#create-view #create-form #drop-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 256px;
+  height: 96px;
+  border-radius: 10px;
+  background-color: #b3ecff;
+  font-size: 16px;
+  font-family: "Lato";
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#create-view #create-form > input {
+  width: 256px;
+  height: 32px;
+  background-color: #e3f8ff;
+  border-radius: 5px;
+  border: 1px solid #52606d;
+}
+#create-view #create-form #create-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 128px;
+  height: 32px;
+  border-radius: 10px;
+  font-family: "Lato";
+  background-color: #40c3f7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#create-view #create-form #create-button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=App.d36a57b6.css.map */
