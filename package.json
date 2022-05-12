@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@polkadot/api": "^3.6.4",
-    "@polkadot/keyring": "^5.4.4",
+    "@polkadot/keyring": "^5.9.2",
     "@polkadot/util-crypto": "^5.4.4",
     "electron-squirrel-startup": "^1.0.0",
     "react": "^17.0.1",
